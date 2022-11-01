@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Quicksand',sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	font-size: 20px;
+	font-weight: 400px;
+	text-decoration: none;
+	color: white;
+}
+
+h2,h3 {
+	color: white;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+.profil header {
+	text-align: center;
+}
+
+.gambar {
+	width: 100%;
+	max-height: 300px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.logo {
+	width: 200px;
+}
+
+.card {
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+	border: double white;
+	background-color: #f72a2a;
+	color: white;
+}
+
+.judul {
+	font-size: 20px;
+	padding: 60px;
+	background-color: #f72a2a;
+	color: white;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 30px;
+}
+
+nav {
+	background-color: #bf1f1f;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+}
+
+header {
+	display: inline;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+.kotakOne {
+	text-align: center;
+	float: left;
+	width: 19%;
+	padding-right: 10px;
+}
+
+.kotakSecond {
+	float: left;
+	width: 56%;
+	padding-right: 10px;
+}
+
+aside {
+	float: left;
+	width: 25%;
+}
+
+table {
+	border-color: white;
+}
+
+footer {
+	padding: 20px;
+	color: white;
+	background-color: #bf1f1f;
+	text-align: center;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+	#content,
+	.kotakOne,
+	.kotakSecond,
+	aside {
+		width: 100%;
+		padding: 0;
+	}
+}
+
